@@ -9,11 +9,11 @@ ob_start();
 Contactez-moi
 </button>
 <!-- Modal -->
-<div class="modal fade" id="contact" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+<div class="modal" id="contact">
     <div class="modal-dialog" role="document">
         <div class="modal-content">
             <div class="modal-header">
-                <h5 class="modal-title" id="exampleModalLabel">Contact</h5>
+                <h5 class="modal-title">Contact</h5>
                 <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                     <span aria-hidden="true">&times;</span>
                 </button>
@@ -39,7 +39,7 @@ Contactez-moi
 
                     <div class="form-group">
                         <label for="comment">Votre message:</label>
-                        <textarea class="form-control" id="comment" name="comment" required></textarea>
+                        <textarea class="form-control" rows="5" id="comment" name="comment" required></textarea>
                     </div>
 
                     <!--------------- bouton validation --------------->

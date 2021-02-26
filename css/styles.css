@@ -1,22 +1,27 @@
-/* général */
+/* GENERAL */
 body{
-    font-size: 100%;
-    font-family: 'Press Start 2P', cursive;
+    font-family: 'Press Start 2P', sans-serif;
 }
-h1,h2,h3,h4,h5{
+h1,h2,h3,h4,h5,h6{
     font-weight: bold;
     text-align: center;
+}
+.heading h3{
+    margin-bottom: 10px;
 }
 img{
     max-width: 100%;
     height: auto;
 }
+ul,ol{
+    list-style:none;
+}
 section{
-    padding: 45px 0 60px 0;
+    padding: 45px 0px 80px 0;
 }
 section .heading{
     text-align: center;
-    padding-bottom: 0px;
+    padding-bottom: 40px;
 }
 section .heading h2{
     text-transform: uppercase;
@@ -25,28 +30,52 @@ section .heading h2{
     width: 100px;
     height: 2px;
     background: #850606;
-    margin: 20px auto;
+    margin: 0 auto 20px;
+
 }
 .white-divider{
-    width: 300px;
+    width: 100px;
     height: 2px;
     background: blanchedalmond;
-    margin: 20px auto;
-}
-ul, ol{
-    list-style: none;
+    margin: 0 auto 20px;
 }
 
-#scroll_to_top {
-    position: fixed;
-    width: 25px;
-    height: 25px;
-    bottom: 50px;
-    right: 30px;
+/************************ MODAL ******************************************************/
+.amp{
+    margin-top: 20px;
+}
+.modal{
+    margin-top: 80px;
 }
 
 
-/* about */
+/************************************************************** NAVBAR ***********************************************/
+.navbar {
+    background-color: #850606;
+    font-size: 20px;
+    border-bottom: 3px dotted #333;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    font-weight: bold;
+    opacity: 0.7;
+    margin-right: 4%;
+    margin-left: 4%;
+}
+.nav-pills .nav-link{
+    color: blanchedalmond !important;
+    text-align: center;
+}
+.nav-pills .nav-link.active,  .nav-pills .nav-link:hover{
+    color: #850606 !important;
+    background-color: blanchedalmond !important;
+}
+.navbar-toggler{
+    color: blanchedalmond !important;
+    border-style: none;
+}
+
+
+/*************************************************** about *****************************************************/
 
 #about{
     padding-top: 100px;
@@ -81,7 +110,7 @@ ul, ol{
     text-decoration: none;
 }
 
-/* skills */
+/*************************************************** skills *****************************************************/
 
 #skills{
     background: blanchedalmond;
@@ -98,8 +127,7 @@ ul, ol{
     background: #850606;
 }
 
-
-/* XP */
+/******************************************** XP ******************************************************/
 
 #experience{
     background: #850606;
@@ -203,7 +231,7 @@ ul, ol{
 
 }
 
-/* Education */
+/************************************************* Education *****************************************************/
 
 #education .red-divider{
     margin-bottom: 20px;
@@ -248,7 +276,7 @@ ul, ol{
     margin-bottom: 20px;
 }
 
-/* protfolio */
+/************************************************ protfolio ********************************************************/
 #portfolio{
     background: #850606;
 
@@ -263,7 +291,7 @@ ul, ol{
     filter: grayscale(100%);
     -webkit-filter: grayscale(100%);
     border: 5px solid #293133;
-    border-radius: 5px;
+    border-radius: 60px;
     margin-bottom: 15px;
 }
 #portfolio .thumbnail img:hover{
@@ -271,31 +299,56 @@ ul, ol{
     -webkit-filter: none;
 }
 
-/* recommandation */
+/************************************************* recommandation ****************************************************/
 #recommandation{
     background: blanchedalmond;
 }
 #recommandation .heading h2{
     color: #293133;
-    margin: 30px 0 40px 0;
+    margin: 30px 0 20px 0;
 }
 .carousel-control-prev{
+
     background-image: none;
     color: #850606;
-    padding-right: 150%;
-    font-size: 50px;
+    margin-left: -10%;
+
 }
 .carousel-control-next{
+
     background-image: none;
     color: #850606;
-    padding-left: 150%;
-    font-size: 50px;
+    margin-right: -10%;
+
+}
+#myCarousel .carousel-item{
+    padding: 40px 30px;
 }
 #myCarousel h3{
+    color: #850606;
     font-size: 25px;
-    margin-bottom: 30px;
+    margin: 0 15px 30px 15px;
 }
 #myCarousel h4{
+    color: #333;
     font-size: 20px;
     text-transform: uppercase;
+}
+
+/********************************************** FOOTER **********************************************************/
+footer{
+    padding: 20px 0 5px;
+}
+footer .fas{
+    margin: 20px;
+    color: #333;
+    height: 30px;
+}
+footer .fas:hover{
+    font-size:  80px;
+    color: blanchedalmond;
+}
+footer h6{
+    color: blanchedalmond;
+    font-weight: normal;
 }

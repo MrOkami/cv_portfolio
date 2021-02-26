@@ -27,10 +27,10 @@ ob_start();
                 </div>
             </div>
             <a class="carousel-control-prev" href="#myCarousel" role="button" data-slide="prev">
-                <i class="fas fa-caret-left"></i>
+                <i class="fas fa-caret-left fa-3x"></i>
             </a>
             <a class="carousel-control-next" href="#myCarousel" role="button" data-slide="next">
-                <i class="fas fa-caret-right"></i>
+                <i class="fas fa-caret-right fa-3x"></i>
             </a>
         </div>
 

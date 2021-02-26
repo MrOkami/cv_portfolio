@@ -11,8 +11,8 @@ ob_start();
             </div>
             <div class="row">
                 <div class="col-sm-4">
-                    <a href="http://www.facebook.com" class="thumbnail"  target="_blank" rel="">
-                        <img src="img/fb.png" alt="facebook">
+                    <a href="https://amzn.to/2PaGAMe" class="thumbnail"  target="_blank" rel="">
+                        <img src="img/dl2.png" alt="ampoules">
                     </a>
                 </div>
                 <div class="col-sm-4">
@@ -35,12 +35,12 @@ ob_start();
                 </div>
                 <div class="col-sm-4">
                     <a href="http://www.twitter.com" class="thumbnail"  target="_blank" rel="">
-                        <img src="img/twitter.png" alt="twitter">
+                        <img src="img/tt2.png" alt="twitter">
                     </a>
                 </div>
                 <div class="col-sm-4">
-                    <a href="http://www.linkedin.com" class="thumbnail"  target="_blank" rel="">
-                        <img src="img/linkedin.png" alt="linkedin">
+                    <a href="https://www.linkedin.com/in/guillaume-farkas-4823b2205/" class="thumbnail"  target="_blank" rel="">
+                        <img src="img/linkedin2.png" alt="linkedin">
                     </a>
                 </div>
 

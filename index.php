@@ -5,11 +5,9 @@ $title = "Portfolio";
 ?>
 
 
-    <div id="scroll_to_top">
-    <a href="#top"><i class="far fa-hand-pointer"></i></a>
-</div>
 
-    <section id="about" class="container">
+
+    <section id="about" class="container-fluid">
 
         <div class="col-xs-8 col-md-4 profile-picture">
             <img src="img/tmm.jpg" alt="pp" class="rounded-circle" width="50%">
@@ -18,7 +16,7 @@ $title = "Portfolio";
         <div class="heading">
             <h1>Portfolio</h1>
             <h3>Développeur Web</h3>
-            <p>Ce CV/Portfolio est un troll, mais vous pouvez toujour me contacter :)</p>
+            <p>Ce CV/Portfolio est un troll, mais vous pouvez toujours me contacter :)</p>
             <?php
             include "views/contact.php";
             ?>
@@ -54,6 +52,13 @@ $title = "Portfolio";
             include "views/recommandation.php";
             ?>
         </section>
+
+ <footer class="text-center">
+        <a href="#about">
+            <i class="fas fa-caret-up fa-3x"></i>
+        </a>
+            <h6>Retourner en haut</h6>
+ </footer>
 
 
 
